@@ -1,4 +1,4 @@
 # google-homepage
-This is a mock homepage of Google. Practice!
+This is a mock homepage of Google.
 
 theodinproject.com
