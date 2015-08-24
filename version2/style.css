@@ -11,6 +11,10 @@ a {
 	color: black;
 }
 
+form {
+	margin: 15% 0 0 28%;
+}
+
 #container {
 	position: relative;
 	min-height: 100%
@@ -38,5 +42,101 @@ a {
 }
 
 #headerlinks {
+	padding-top: 0;
+	padding-left: 10px;
+	padding-right: 10px;
 	margin-left: auto;
+}
+
+.headerlink {
+	margin-right: 10px;
+}
+
+.headerlink:hover {
+	text-decoration: underline;
+}
+
+#grid {
+	height: 50%;
+	opacity: 0.5;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-right: 10px;
+}
+
+#grid:hover {
+	opacity: 1.0;
+}
+
+#bell {
+	height: 30%;
+	border: 1px solid black;
+	border-radius: 100%;
+	margin-right: 10px;
+	background: black;
+	opacity: 0.5;
+}
+
+#bell:hover {
+	opacity: 1.0;
+}
+
+#unknown {
+	height: 70%;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid none;
+	border-radius: 100%;
+}
+
+#tableleft {
+	float: left;
+	padding: 5px 5px 0 20px;
+}
+
+#tableright {
+	float:right;
+	padding: 5px 20px 0 5px;
+}
+
+.footerlink {
+	color: black;
+	opacity: 0.6;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.footerlink:hover {
+	text-decoration: underline;
+}
+
+#textbox {
+	height: 25px;
+	width: 60%;
+	border: 1px inset gray;
+	opacity: 0.5;
+}
+
+#textbox:hover {
+	opacity: 1.0;
+}
+
+#centerbuttons {
+	text-align: center;
+
+}
+
+.button {
+	height: 25px;
+	margin-top: 20px;
+}
+
+#googlelogo {
+	text-align: center;
+	height: 10px;
+}
+
+p img {
+	margin-top: 4%;
+	width: 30%;
 }
