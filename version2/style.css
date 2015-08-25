@@ -15,6 +15,12 @@ form {
 	margin: 15% 0 0 28%;
 }
 
+
+p img {
+	margin-top: 4%;
+	width: 30%;
+}
+
 #container {
 	position: relative;
 	min-height: 100%
@@ -136,7 +142,18 @@ form {
 	height: 10px;
 }
 
-p img {
-	margin-top: 4%;
-	width: 30%;
+#centercontent {
+	text-align: center;
+	font-family: Arial;
+	font-size: 10pt;
+	margin-top: 50px;
+}
+
+#nihongo {
+	text-decoration: none;
+	color: blue;
+}
+
+#nihongo:hover {
+	text-decoration: underline;
 }
